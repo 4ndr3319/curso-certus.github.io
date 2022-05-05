@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+}
+
+nav{
+    background-color: rgb(61, 137, 230);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.306);
+}
+.btnregistro{
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    color:white;
+    background: linear-gradient(to right,green 50%, orange 50%)no-repeat left / 200% ;
+    transition: background-position .3s ease;
+}
+
+.btnregistro:hover{
+    background-position: right;
+    color:black;
+}
+.btncontacto{
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    color:rgb(251, 251, 4);
+    border: 2px solid;
+    background: linear-gradient(to right,rgba(222, 246, 10, 0.765) 50%, orange 50%)no-repeat left / 200% ;
+    transition: background-position .3s ease;
+} 
+.btncontacto:hover{
+    background-position: rigth;
+    color:black;
+    border: 2px solid rgba(152, 152, 20, 0.704);
+}
+.menu{
+    text-align: center;
+    margin: 0;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu a{
+    padding: 45px;
+    color: rgb(237, 237, 16);
+    text-decoration: orange;
+    display: block;
+
+}
+.menu a:hover{
+    background-color: rgb(225, 156, 66);
+    font-size: large;
+}
+
+.central{
+    background-color: aliceblue;
+    color: rgb(13, 0, 255);
+    text-align: center;
+    overflow: hidden;
+    padding: 40px;
+}
+
+img{
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+table{
+    width: 80%;
+    border-collapse: collapse;
+    vertical-align: top ;
+}
+
+tr, td{
+    width: 20%;
+    text-align: center;
+    border: 4px solid rgb(26, 20, 20);
+    vertical-align: center;
+}
+caption{
+    background-color: rgba(31, 155, 95, 0.311);
+    border: 1px solid blue;
+    padding: 5px;
+}
+
+.brasil{
+    background: linear-gradient(green,green,green,yellow,yellow,green);
+}
+.argentina{
+    background:linear-gradient(skyblue,skyblue,skyblue, white,white,skyblue,skyblue,skyblue,white,white,skyblue,skyblue,skyblue)
+}
+.peru{
+    background:linear-gradient(red,red,white,white,red,red) ;
+}
+.colombia{
+    background: linear-gradient(yellow 30%,blue,blue,red,red);
+}
+.venezuela{
+    background: linear-gradient(yellow,yellow,blue,blue,red,red);
+}
+.chile{
+    background: linear-gradient(blue,blue,white,white,red,red);
+}
+.ecuador{
+    background: linear-gradient(yellow 20%,blue,blue,red,red);
+}
+.bolivia{
+    background: linear-gradient(red,red,yellow,yellow,green,green);
+}
+.uruguay{
+    background: linear-gradient(blue,blue,white,white,blue,blue,white,white,blue,blue,white,white,blue,blue,white,white);
+}
+.estadosunidos{
+    background: linear-gradient(blue,blue,red,red,white,white,red,red,white,white,red,red,white,white);
+}
+.canada{
+    background: linear-gradient(red,red,white,white,red,red);
+}
+.mexico{
+    background: linear-gradient(green,green,white,white,red,red);
+}
+.costarica{
+    background: linear-gradient(blue,blue,blue,white,white,red,red,red,white,white,blue,blue,blue);
+}
+.cuba{
+    background: linear-gradient(red,red,red,blue,blue,white,white,blue,blue,white,white,blue,blue);
+}
+.elsalvador{
+    background: linear-gradient(blue,blue,blue,white,white,blue,blue,blue);
+}
+.puertorico{
+    background: linear-gradient(blue,blue,blue, red,red,white,white,red,red,white,white,red,red);
+}
+.republica{
+    background: linear-gradient(blue,blue,white,white,red,red,white,white,red,red,white,white,blue,blue);
+}
+.honduras{
+    background: linear-gradient(blue,blue,white,white,blue,blue);
+}
+.guatemala{
+    background: linear-gradient(skyblue,skyblue,white,white,skyblue,skyblue);
+}
+.panama{
+    background: linear-gradient(white,white,red,red,blue,blue,white,white);
+}
+.nicaragua{
+    background: linear-gradient(skyblue,skyblue,white,white,white,skyblue,skyblue);
+}
+
+.belice{
+    background: linear-gradient(red,red,blue,blue,blue,red,red);
+}
+.jamaica{
+    background: linear-gradient(green,green,yellow,yellow,rgba(0, 0, 0, 0.626),rgba(0, 0, 0, 0.632),yellow,yellow,green,green);
+}
+.haiti{
+    background: linear-gradient(blue,blue,red,red);
+}
+.paraguay{
+    background: linear-gradient(red,red,white,white,blue,blue);
+}
+.guyana{
+    background: linear-gradient(red,red,yellow,yellow,green,green);
+}
+.suriman{
+    background: linear-gradient(green,green,white,white,red,red,red,white,white,green,green);
+}
+.guayana{
+    background: linear-gradient(green,green,yellow,yellow);
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+footer img{
+    width: 25px;
+}
